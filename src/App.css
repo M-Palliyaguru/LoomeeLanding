@@ -705,19 +705,21 @@
 
 .benefits-floating-stat {
   position: absolute;
-  z-index: 10;   /* higher than image */
+  z-index: 10; /* higher than image */
 }
 
 .benefits-floating-stat.stat-1 {
   top: -30px;
   right: -30px;
   animation: float 5s ease-in-out infinite;
+  color: black;
 }
 
 .benefits-floating-stat.stat-2 {
   bottom: 50px;
   left: -40px;
   animation: floatReverse 6s ease-in-out infinite;
+  color:black;
 }
 
 .stat-icon {
