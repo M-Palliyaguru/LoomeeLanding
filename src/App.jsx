@@ -63,7 +63,7 @@ function Navbar({ scrolled, onGetStarted }) {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
       <div className="logo">
-        Loome<span className="logo-accent">é</span>
+        Loomee<span className="logo-accent">é</span>
       </div>
 
       <ul className="nav-links">
