@@ -415,7 +415,7 @@ function BenefitsSection() {
           
         <div className="benefits-main-image">
           <img
-            src="/benefits-preview.png"
+            src="/benefits-preview.jpg"
             alt="Virtual try-on preview"
             className="benefits-image"
           />
