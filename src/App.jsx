@@ -412,14 +412,15 @@ function BenefitsSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
+          
         <div className="benefits-main-image">
           <img
-            src="/benefits-preview.jpg"
-            alt="Loomeé virtual try-on preview"
+            src="/benefits-preview.png"
+            alt="Virtual try-on preview"
             className="benefits-image"
           />
-          <div className="benefits-pattern"></div>
         </div>
+
 
           <motion.div
             className="benefits-floating-stat stat-1"
