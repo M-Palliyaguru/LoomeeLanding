@@ -37,6 +37,55 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 
 // Animation variants
+// Main App
+function App() {
+  const [scrolled, setScrolled] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedPlan, setSelectedPlan] = useState('Free');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleGetStarted = () => {
+    setSelectedPlan('Free');
+    setModalOpen(true);
+  };
+
+  const handleSelectPlan = (plan) => {
+    setSelectedPlan(plan);
+    setModalOpen(true);
+  };
+
+  return (
+    <div className="app">
+      <Navbar scrolled={scrolled} onGetStarted={handleGetStarted} />
+      
+      <main>
+        <HeroSection onGetStarted={handleGetStarted} />
+        <FeaturesSection />
+        <HowItWorksSection />
+        <BenefitsSection />
+        <PricingSection onSelectPlan={handleSelectPlan} />
+        <CTASection onGetStarted={handleGetStarted} />
+      </main>
+
+      <Footer />
+
+      <PricingModal
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+        selectedPlan={selectedPlan}
+      />
+    </div>
+  );
+}
+  
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
   visible: { 
