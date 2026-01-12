@@ -655,7 +655,6 @@ function Footer() {
           <ul className="footer-links">
             <li><a href="#">Documentation</a></li>
             <li><a href="#">Help Center</a></li>
-            <li><a href="#">Community</a></li>
           </ul>
         </div>
 
