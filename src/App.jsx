@@ -645,7 +645,7 @@ function Footer() {
           <ul className="footer-links">
             <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4"></a></li>
             <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Careers</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0">Blog</a></li>
             <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Press</a></li>
           </ul>
         </div>
