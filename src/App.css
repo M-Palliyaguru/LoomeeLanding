@@ -26,6 +26,7 @@
   font-weight: 700;
   color: var(--color-text);
   letter-spacing: -1px;
+  user-select: none;
 }
 
 .logo-accent {
