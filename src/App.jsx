@@ -654,7 +654,7 @@ function Footer() {
           <h4>Resources</h4>
           <ul className="footer-links">
             <li><a href="#">Documentation</a></li>
-            <li><a href="#">Help Center</a></li>
+            
           </ul>
         </div>
 
