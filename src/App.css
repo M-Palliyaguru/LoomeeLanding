@@ -179,6 +179,7 @@
   line-height: 1.1;
   margin-bottom: 1.5rem;
   letter-spacing: -2px;
+  max-width: 12ch;
 }
 
 .hero-title-line {
