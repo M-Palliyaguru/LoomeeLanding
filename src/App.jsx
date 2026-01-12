@@ -642,10 +642,10 @@ function Footer() {
         <div className="footer-column">
           <h4>Company</h4>
           <ul className="footer-links">
-            <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4" target="_blank"></a></li>
-            <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Careers</a></li>
+            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4" target="_blank"></a></li>
+            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4">Careers</a></li>
             <li><a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0">Blog</a></li>
-            <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Press</a></li>
+            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4">Press</a></li>
           </ul>
         </div>
       </div>
