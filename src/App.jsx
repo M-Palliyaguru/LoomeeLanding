@@ -654,7 +654,7 @@ function Footer() {
           <h4>Legal</h4>
           <ul className="footer-links">
             <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+            
             
             
           </ul>
