@@ -656,7 +656,6 @@ function Footer() {
             <li><a href="#">Documentation</a></li>
             <li><a href="#">Help Center</a></li>
             <li><a href="#">Community</a></li>
-            <li><a href="#">Partners</a></li>
           </ul>
         </div>
 
