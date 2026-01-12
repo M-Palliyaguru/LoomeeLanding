@@ -9,8 +9,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.45s ease;
-  will-change: transform; 
+  transition: background 0.45s ease, padding 0.45s ease, box-shadow 0.45s ease;
+  will-change: background, padding;
 }
 
 .navbar.scrolled {
