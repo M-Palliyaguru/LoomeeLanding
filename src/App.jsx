@@ -646,7 +646,7 @@ function Footer() {
             <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4"></a></li>
             <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Careers</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Press</a></li>
+            <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Press</a></li>
           </ul>
         </div>
 
