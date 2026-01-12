@@ -627,7 +627,7 @@ function Footer() {
           </p>
           <div className="footer-social">
             <a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0" className="social-link"><Instagram size={18} /></a>
-            <a href="#" className="social-link"><Linkedin size={18} /></a>
+            <a href="www.linkedin.com/in/loomee-vto-a90aba3a4" className="social-link"><Linkedin size={18} /></a>
             <a href="#" className="social-link"><Github size={18} /></a>
           </div>
         </div>
