@@ -649,10 +649,6 @@ function Footer() {
             <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Press</a></li>
           </ul>
         </div>
-
-        <div className="footer-column">
-          
-        </div>
       </div>
 
       <div className="footer-bottom">
