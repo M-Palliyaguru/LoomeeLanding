@@ -656,7 +656,7 @@ function Footer() {
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
             <li><a href="#">Cookie Policy</a></li>
-            <li><a href="#">GDPR</a></li>
+            
           </ul>
         </div>
       </div>
