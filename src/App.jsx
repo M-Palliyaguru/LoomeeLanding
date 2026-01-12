@@ -638,7 +638,6 @@ function Footer() {
             <li><a href="#features">Features</a></li>
             <li><a href="#pricing">Pricing</a></li>
             <li><a href="#">API</a></li>
-            <li><a href="#">Integrations</a></li>
           </ul>
         </div>
 
