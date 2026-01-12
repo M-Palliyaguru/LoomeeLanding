@@ -9,10 +9,12 @@
   --color-highlight: #D4AF37;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+*, *::before, *::after {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 html {
