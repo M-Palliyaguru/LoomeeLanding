@@ -21,8 +21,10 @@ import {
   Heart,
   RotateCcw,
   Share2
-} from 'lucide-react';
+} 
 import { useState, useEffect } from 'react';
+import { Share2 } from 'lucide-react';
+import './App.css';
 
 // Animation variants 
 const fadeInUp = {
