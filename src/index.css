@@ -76,3 +76,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
   }
 }
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
