@@ -294,6 +294,7 @@
     0 50px 100px -20px rgba(28, 43, 57, 0.4),
     0 30px 60px -30px rgba(28, 43, 57, 0.5);
   animation: float 6s ease-in-out infinite;
+  transform-style: preserve-3d;
 }
 
 .phone-screen {
