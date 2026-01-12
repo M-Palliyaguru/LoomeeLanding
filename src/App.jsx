@@ -625,12 +625,11 @@ function Footer() {
             Shop with confidence, reduce returns, and find your perfect fit.
           </p>
           <div className="footer-social">
-            <a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0" className="social-link"><Instagram size={18} /></a>
-            <a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4" className="social-link"><Linkedin size={18} /></a>
-            <a href="https://github.com/M-Palliyaguru/LoomeeLanding" className="social-link"><Github size={18} /></a>
+            <a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0" className="social-link" target="_blank" rel="noopener noreferrer"><Instagram size={18} /></a>
+            <a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4" className="social-link" target="_blank" rel="noopener noreferrer"><Linkedin size={18} /></a>
+            <a href="https://github.com/M-Palliyaguru/LoomeeLanding" className="social-link" target="_blank" rel="noopener noreferrer"><Github size={18} /></a>
           </div>
         </div>
-
         <div className="footer-column">
           <h4>Product</h4>
           <ul className="footer-links">
@@ -638,18 +637,16 @@ function Footer() {
             <li><a href="#pricing">Pricing</a></li>
           </ul>
         </div>
-
         <div className="footer-column">
           <h4>Company</h4>
           <ul className="footer-links">
-            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4" target="_blank"></a></li>
-            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4">Careers</a></li>
-            <li><a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0">Blog</a></li>
-            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4">Press</a></li>
+            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4" target="_blank" rel="noopener noreferrer"></a></li>
+            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4" target="_blank" rel="noopener noreferrer">Careers</a></li>
+            <li><a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0" target="_blank" rel="noopener noreferrer">Blog</a></li>
+            <li><a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4" target="_blank" rel="noopener noreferrer">Press</a></li>
           </ul>
         </div>
       </div>
-
       <div className="footer-bottom">
         <p className="footer-copyright">
           © 2025 Loomeé. All rights reserved. Team CS-123 | IIT
@@ -658,7 +655,6 @@ function Footer() {
     </footer>
   );
 }
-
 // Pricing Modal
 function PricingModal({ isOpen, onClose, selectedPlan }) {
   if (!isOpen) return null;
