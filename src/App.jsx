@@ -678,7 +678,6 @@ function Footer() {
           © 2025 Loomeé. All rights reserved. Team CS-123 | IIT
         </p>
         <div className="footer-legal">
-          <a href="#">Privacy</a>
         </div>
       </div>
     </footer>
