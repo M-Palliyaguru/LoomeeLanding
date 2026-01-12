@@ -1,4 +1,8 @@
 import { useState, useEffect } from 'react';
+import { Share2 } from 'lucide-react';
+import './App.css';
+
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Camera,
@@ -22,9 +26,6 @@ import {
   RotateCcw,
   Share2
 } 
-import { useState, useEffect } from 'react';
-import { Share2 } from 'lucide-react';
-import './App.css';
 
 // Animation variants 
 const fadeInUp = {
