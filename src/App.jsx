@@ -626,7 +626,7 @@ function Footer() {
           </p>
           <div className="footer-social">
             <a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0" className="social-link"><Instagram size={18} /></a>
-            <a href="www.linkedin.com/in/loomee-vto-a90aba3a4" className="social-link"><Linkedin size={18} /></a>
+            <a href="https://www.linkedin.com/in/loomee-vto-a90aba3a4" className="social-link"><Linkedin size={18} /></a>
             <a href="https://github.com/M-Palliyaguru/LoomeeLanding" className="social-link"><Github size={18} /></a>
           </div>
         </div>
@@ -642,7 +642,7 @@ function Footer() {
         <div className="footer-column">
           <h4>Company</h4>
           <ul className="footer-links">
-            <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4"></a></li>
+            <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4" target="_blank"></a></li>
             <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Careers</a></li>
             <li><a href="https://www.instagram.com/loomeeai?utm_source=qr&igsh=aDdlb2g5a2RmajY0">Blog</a></li>
             <li><a href="www.linkedin.com/in/loomee-vto-a90aba3a4">Press</a></li>
