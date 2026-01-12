@@ -951,6 +951,11 @@
   transform: translateY(-2px);
 }
 
+.pricing-card.featured:focus-within {
+  outline: 2px solid var(--color-highlight); /* Accessibility for tab navigation */
+  outline-offset: 6px;
+}
+
 /* CTA Section */
 .cta-section {
   padding: 8rem 5%;
