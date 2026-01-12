@@ -680,7 +680,6 @@ function Footer() {
         <div className="footer-legal">
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
-          <a href="#">Cookies</a>
         </div>
       </div>
     </footer>
