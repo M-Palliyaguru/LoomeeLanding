@@ -85,3 +85,8 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
   font: inherit;
 }
+
+:focus-visible {
+  outline: 2px solid var(--color-highlight);
+  outline-offset: 3px;
+}
