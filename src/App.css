@@ -43,7 +43,7 @@
   font-weight: 500;
   font-size: 0.95rem;
   position: relative;
-  transition: color 0.3s ease;
+  transition: color 0.35s ease;
 }
 
 .nav-links a::after {
