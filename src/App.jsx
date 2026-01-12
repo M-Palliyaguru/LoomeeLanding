@@ -652,10 +652,7 @@ function Footer() {
 
         <div className="footer-column">
           <h4>Resources</h4>
-          <ul className="footer-links">
-          
-            
-          </ul>
+  
         </div>
 
         <div className="footer-column">
