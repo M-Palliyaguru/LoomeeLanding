@@ -1011,8 +1011,8 @@
 
 .cta-title {
   font-size: clamp(2rem, 4vw, 3rem);
-  margin-bottom: 1.5rem;
   letter-spacing: -1px;
+  margin-bottom: 1.5rem;
 }
 
 .cta-description {
